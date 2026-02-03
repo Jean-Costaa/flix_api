@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-6=c10+e^t#js-zlu&+k4st^lnqxlhqsy4egj(l&b@rke-dv2%(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['flix_api.jcservices.site', 'www.flix_api.jcservices.site', 'localhost', '127.0.0.1']
 
 
 # Application definition
