@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-6=c10+e^t#js-zlu&+k4st^lnqxlhqsy4egj(l&b@rke-dv2%(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['flix_api.jcservices.site', 'www.flix_api.jcservices.site', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['flix-api.jcservices.site', 'www.flix-api.jcservices.site', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
@@ -145,7 +146,3 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(days=1),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
 }
-
-# Confiança em proxy reverso (Traefik / Cloudflare)
-USE_X_FORWARDED_HOST = True
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
